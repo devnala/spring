@@ -23,7 +23,7 @@ Spring Web 프로세스 위에서 스케줄러 프로세스가 동작 하는방�
 
 2. Spring Boot 프로젝트 생성 방법은 Spring Initializ에서 구성해서 다운받는 방법과
 
-이클립스에 구성하는 방법이 있다. 
+  이클립스에 구성하는 방법이 있다. 
 
   Spring Initializ( https://start.spring.io/ )를 이용 기본패키지를 생성한다.
 
@@ -135,26 +135,4 @@ Boot Dashboard에서  SampleCron start
 
 Spring boot 에서 스케줄러(Cron) 실행됨~~
 
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::        (v2.2.0.RELEASE)
-
-2019-11-05 14:18:10.236  INFO 32792 --- [           main] com.example.demo.SampleCronApplication   : Starting SampleCronApplication on DESKTOP-PRLBFL8 with PID 32792 (C:\Users\sgcho\eclipse-workspace\SampleCron\bin\main started by sgcho in C:\Users\sgcho\eclipse-workspace\SampleCron)
-2019-11-05 14:18:10.240  INFO 32792 --- [           main] com.example.demo.SampleCronApplication   : No active profile set, falling back to default profiles: default
-2019-11-05 14:18:11.287  INFO 32792 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2019-11-05 14:18:11.298  INFO 32792 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-11-05 14:18:11.298  INFO 32792 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2019-11-05 14:18:11.471  INFO 32792 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-11-05 14:18:11.472  INFO 32792 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1181 ms
-2019-11-05 14:18:11.543  INFO 32792 --- [           main] o.s.s.c.ScheduledExecutorFactoryBean     : Initializing ExecutorService 'scheduledExecutorService'
-2019-11-05 14:18:11.972  INFO 32792 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2019-11-05 14:18:11.975  INFO 32792 --- [           main] com.example.demo.SampleCronApplication   : Started SampleCronApplication in 2.141 seconds (JVM running for 4.396)
-fixedRate : 1000
-fixedDelay : 1000
-initialDelay + fixedRate
-​
-
+ 
